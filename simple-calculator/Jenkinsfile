@@ -56,7 +56,7 @@ void sendNotification(String action, String email) {
 
  git branch: 'notifications',
 
- url: 'https://github.com/YOUR_GITHUB_USER/DO400-apps'
+ url: 'https://github.com/camleous/DO400-apps'
 
  }
 
