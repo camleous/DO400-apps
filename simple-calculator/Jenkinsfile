@@ -45,9 +45,6 @@ void sendNotification(String action, String email) {
 
 }
 
-pipeline {
-
- ...output omitted...
 
  stages {
 
@@ -65,4 +62,14 @@ pipeline {
 
  }
 
- 
+ post {
+
+ always {
+
+ sendNotification('finished', 'team@example.com')
+
+ }
+
+ }
+
+} 
